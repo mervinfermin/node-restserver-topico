@@ -13,7 +13,7 @@ app.use(bodyParser.json())
 
 
 app.get('/usuario', function(req, res) {
-    res.json('hola mundo');
+    res.json('get usuario');
 });
 app.post('/usuario', function(req, res) {
     let body = req.body;
